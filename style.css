@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top_header {
+    background-color: black;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.profile, .home, .my_profile, .connections {
+    color: white;
+    font-family: Roboto;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.home, .connections {
+    color: rgb(165, 165, 165);
+}
+
+.sign_out {
+    background-color: #17a2b8;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.content {
+    padding: 15px 100px;
+    display: flex;
+}
+
+.left_side {
+    flex: 2;
+}
+
+.top_left {
+    border: 5px solid lightgray;
+    padding-bottom: 20px;
+}
+
+.profile_header {
+    background-color: #17a2b8;
+    height: 100px;
+    margin-bottom: 55px;
+}
+
+.main_pic {
+    height: 100px;
+    margin: 40px 0 0 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px lightgray;
+}
+
+.profile_name {
+    font-family: Roboto;
+    margin-bottom: 10px;
+}
+
+.icon {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.top_left_body {
+    padding-left: 30px;
+    font-family: Roboto;
+}
+
+.bottom_left {
+    border: 5px solid lightgray;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.bottom_left_header {
+    background-color: rgb(30, 30, 30);
+    color: rgb(208, 208, 208);
+    padding-left: 30px;
+    margin-bottom: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom_left_body {
+    padding-left: 30px;
+    font-family: Roboto;
+
+}
+
+.education_dates {
+    color: gray;
+}
+
+.right_side {
+    margin-left: 20px;
+}
+
+.right_header {
+    background-color: rgb(30, 30, 30);
+    color: rgb(208, 208, 208);
+    padding: 0 10px 0 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification_number {
+    background-color: rgb(208, 208, 208);
+    color: rgb(30, 30, 30);
+    border-radius: 50%;
+    min-height: 20px;
+    min-width: 20px;
+    padding: 1px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_side {
+    flex: 1;
+}
+
+.top_right {
+    border: 5px solid lightgray;
+    margin-bottom: 30px;
+}
+
+.right_body {
+    font-family: Roboto;
+}
+
+.profile_link {
+    text-decoration: none;
+    font-family: Roboto;
+    color: black;
+    font-size: 20pt;
+    font-weight: bold;
+
+}
+
+.accept, .close {
+    height: 25px;
+    margin: 5px;
+}
+
+.align_right {
+    margin-left: auto;
+}
+
+.accept {
+    margin-left: auto;
+}
+
+.profile_picture {
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+}
+
+.bottom_right {
+    border: 5px solid lightgray;
+    margin-bottom: 30px;
+}
+
+.view_more {
+    border-top: 5px solid lightgray;
+    height: 40px;
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
